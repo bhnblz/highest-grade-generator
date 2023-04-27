@@ -6,7 +6,7 @@ with open("students.txt") as main_file:
     # Loop through each line in the file
     for line in main_file:
         # Split line into the student's GWA and name
-        gwa = line.split()
+        gwa = line.split(",")
         name = gwa[0]
         # Convert GWA to float
         gwa = float(gwa[1])
