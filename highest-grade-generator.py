@@ -16,4 +16,4 @@ with open("students.txt") as main_file:
             student_highest = name
 
 # Print the output
-print("The student with the highest grade or GWA is " + (student_highest), "with a GWA of " + (highest_gwa) "." "Congratulations!")
+print("The student with the highest grade or GWA is " + (str(student_highest)), "with a GWA of " + (str(highest_gwa)), ". Congratulations!")
